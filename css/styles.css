@@ -710,8 +710,8 @@ img {
   opacity: 0;
 }
 
-.projects-list-item:hover .project-overlay,
-.projects-list-item:focus .project-overlay {
+.projects-link:hover .project-overlay,
+.projects-link:focus .project-overlay {
   transform: translateY(0%);
   opacity: 1;
 }
@@ -752,8 +752,12 @@ img {
   color: #212121;
 }
 
+.projects-link {
+  display: block;
+}
+
 .projects-list-item:hover,
-.projects-list-item:focus {
+.projects-link:focus {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
